@@ -1,0 +1,21 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="821" measuredH="171" mockupW="785" mockupH="144">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="36" y="27" w="-1" h="-1" measuredW="275" measuredH="80" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Jason%20Walker%0ACapstone%3A%20Automata%20Cloud%20Processor%0AOfficial%20Advisor%3A%20George%20Markowsky%0AUnofficial%20Advisor%3A%20Zach%20Hutchinson</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="565" y="122" w="-1" h="-1" measuredW="256" measuredH="28" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Automata%20Cloud%20Processor</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="618" y="150" w="-1" h="-1" measuredW="150" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Message%20Passing%20Module</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

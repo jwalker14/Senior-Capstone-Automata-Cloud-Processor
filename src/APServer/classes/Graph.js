@@ -1,3 +1,5 @@
+//Reference: http://www.dreamincode.net/forums/topic/377473-graph-data-structure-tutorial/
+
 function Graph(V, E){
 	this.vertices = V
 	this.edges = E

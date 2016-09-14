@@ -1,4 +1,7 @@
 //overrite some basic array functions for this application
+
+//http://www.ecma-international.org/ecma-262/5.1/#sec-15.4
+
 var ArrayList = Array
 
 ArrayList.prototype.indexOf = function(fn){

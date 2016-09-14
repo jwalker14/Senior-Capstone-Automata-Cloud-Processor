@@ -10,3 +10,4 @@
 	• Device Automaton Shadow
 		• Current State
 		• Other States
+	• Device Functions

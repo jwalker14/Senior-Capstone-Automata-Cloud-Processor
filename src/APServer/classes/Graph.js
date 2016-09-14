@@ -18,7 +18,7 @@ Graph.prototype.removeVertex = function(){
 }
 
 Graph.prototype.hasVertex = function(){
-	
+
 }
 
 Graph.prototype.addEdge = function(){

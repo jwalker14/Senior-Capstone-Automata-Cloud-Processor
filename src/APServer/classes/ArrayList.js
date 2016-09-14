@@ -4,7 +4,7 @@
 
 var ArrayList = Array
 
-ArrayList.prototype.indexOf = function(fn){
+ArrayList.prototype.indexOfEdge = function(fn){
 	var i = 0;
 	var found = false;
 	while(i < this.length){

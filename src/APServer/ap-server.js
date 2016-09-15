@@ -57,6 +57,6 @@ s.addNeighbor(new Edge(1,7,'functionName2'))
 s.addNeighbor(new Edge(1,6,'functionName'))
 s.addNeighbor(new Edge(1,7,'functionName2'))
 
-console.log(s.getNeighbors().indexOfEdge('functionName2'))
+console.log(s.getNeighbors())
 
 // console.log(v.containsNeighbor(new Edge(1,'5','function name')))

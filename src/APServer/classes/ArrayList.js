@@ -4,11 +4,23 @@
 
 var ArrayList = Array
 
-ArrayList.prototype.indexOf = function(fn){
+ArrayList.prototype.indexOfEdge = function(fn){
 	var i = 0;
 	var found = false;
 	while(i < this.length){
 		if(fn == this[i].functionName){
+			return i
+		}
+		i++
+	}
+	return -1
+};
+
+ArrayList.prototype.indexOfVertex = function(l){
+	var i = 0;
+	var found = false;
+	while(i < this.length){
+		if(l == this[i].getLabel()){
 			return i
 		}
 		i++

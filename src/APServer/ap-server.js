@@ -41,22 +41,25 @@ var Graph = require("./classes/Graph.js");
 //test these classes
 var State = require("./classes/Vertex.js");
 var Edge = require("./classes/Edge.js");
+var ArrayList = require('./classes/ArrayList.js');
 
 var s = new State(5)
-var s = new State(6)
-s.addNeighbor(new Edge(1,6,'functionName'))
-s.addNeighbor(new Edge(1,7,'functionName2'))
-s.addNeighbor(new Edge(1,6,'functionName2'))
-s.addNeighbor(new Edge(1,7,'functionName22'))
-s.addNeighbor(new Edge(1,6,'functionName3'))
-s.addNeighbor(new Edge(1,8,'functionName25'))
-s.addNeighbor(new Edge(1,6,'functionName7'))
-s.addNeighbor(new Edge(1,7,'functionName2'))
-s.addNeighbor(new Edge(1,6,'functionName'))
-s.addNeighbor(new Edge(1,7,'functionName2'))
-s.addNeighbor(new Edge(1,6,'functionName'))
-s.addNeighbor(new Edge(1,7,'functionName2'))
+var s2 = new State(6)
+console.log(s.addNeighbor(new Edge(s2,'functionName')))
+console.log(s.addNeighbor(new Edge(s2,'functionNames')))
 
-console.log(s.getNeighbors())
+var vertices = new ArrayList()
+var edges = new ArrayList()
+
+vertices.push(s)
+vertices.push(s2)
+
+var g = new Graph(vertices,edges)
+
+var s3 = new State(7)
+
+console.log(g.addVertex(s3))
+
+
 
 // console.log(v.containsNeighbor(new Edge(1,'5','function name')))

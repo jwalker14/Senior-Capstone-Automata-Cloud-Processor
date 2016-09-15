@@ -24,7 +24,7 @@ Vertex.prototype.setLabel = function(l){
 };
 
 Vertex.prototype.addNeighbor = function(e){
-	if(neighborhood.indexOf(e.functionName) > -1){
+	if(neighborhood.indexOfEdge(e.functionName) > -1){
 		return false
 	}
 	neighborhood.push(e)

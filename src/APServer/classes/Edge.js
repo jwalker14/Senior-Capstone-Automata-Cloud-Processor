@@ -1,29 +1,33 @@
-// PRIVATE
-var weight = 1
-var toState = null
-var functionName = null
-
-
 //CLASS DEF
-function Edge(v,f){
-	toState = v
-	this.functionName = f
+function Edge(v,l, atts){
+	this.weight = 1;
+	this.toState = v
+	this.label = l
+	this.attributes = atts || {}
 };
 
 Edge.prototype.getDest = function(){
-	 return toState
+	 return this.toState
 };
 
 Edge.prototype.setDest = function(v){
-	return toState
+	return this.toState
 };
 
 Edge.prototype.getWeight = function(){
-	 return weight
+	 return this.weight
 };
 
 Edge.prototype.setWeight = function(w){
-	 weight = w
+	 this.weight = w
+};
+
+Edge.prototype.getLabel = function(){
+	 return this.label
+};
+
+Edge.prototype.setlabel = function(l){
+	 this.label = l
 };
 
 

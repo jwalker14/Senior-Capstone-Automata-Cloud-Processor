@@ -4,11 +4,11 @@
 
 var ArrayList = Array
 
-ArrayList.prototype.indexOfEdge = function(fn){
+ArrayList.prototype.indexOfEdge = function(l){
 	var i = 0;
 	var found = false;
 	while(i < this.length){
-		if(fn == this[i].functionName){
+		if(l == this[i].label){
 			return i
 		}
 		i++

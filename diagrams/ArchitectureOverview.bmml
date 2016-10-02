@@ -1,86 +1,56 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1219" measuredH="760" mockupW="1183" mockupH="733">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1226" measuredH="327" mockupW="1186" mockupH="287">
   <controls>
-    <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="36" y="27" w="-1" h="-1" measuredW="275" measuredH="80" zOrder="0" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Jason%20Walker%0ACapstone%3A%20Automata%20Cloud%20Processor%0AOfficial%20Advisor%3A%20George%20Markowsky%0AUnofficial%20Advisor%3A%20Zach%20Hutchinson</text>
-      </controlProperties>
-    </control>
-    <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="565" y="122" w="-1" h="-1" measuredW="256" measuredH="28" zOrder="1" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>true</bold>
-        <size>20</size>
-        <text>Automata%20Cloud%20Processor</text>
-      </controlProperties>
-    </control>
-    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="627" y="156" w="-1" h="-1" measuredW="132" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Architecture%20Overview</text>
-      </controlProperties>
-    </control>
-    <control controlID="3" controlTypeID="com.balsamiq.mockups::RoundButton" x="579" y="245" w="229" h="97" measuredW="32" measuredH="32" zOrder="3" locked="false" isInGroup="-1">
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::RoundButton" x="552" y="40" w="229" h="97" measuredW="32" measuredH="32" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
         <href>MessagePassingModule%26bm%3BMessagePassingModule.bmml%26bm%3BMessagePassingModule.bmml%26bm%3BMessagePassingModule.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22543%2C218%2C772%2C315%22%20href%3D%22MessagePassingModule.bmml%22%20alt%3D%22MessagePassingModule%22%20id%3D%223%22/%3E</map>
-        <shape>diamond</shape>
-        <text>Message%20Passing%20Module</text>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22512%2C0%2C741%2C97%22%20href%3D%22MessagePassingModule.bmml%22%20alt%3D%22MessagePassingModule%22%20id%3D%223%22/%3E</map>
+        <shape>rectangle</shape>
+        <text>Web%20Socket%20Server%0ACloud%20Automata%20Processor%0ARESTful%20API</text>
       </controlProperties>
     </control>
-    <control controlID="4" controlTypeID="com.balsamiq.mockups::RoundButton" x="579" y="663" w="229" h="97" measuredW="32" measuredH="32" zOrder="4" locked="false" isInGroup="-1">
-      <controlProperties>
-        <href>AutomataCloudProcessor%26bm%3BAutomataCloudProcessor.bmml%26bm%3BAutomataCloudProcessor.bmml%26bm%3BAutomataCloudProcessor.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22543%2C636%2C772%2C733%22%20href%3D%22AutomataCloudProcessor.bmml%22%20alt%3D%22AutomataCloudProcessor%22%20id%3D%224%22/%3E</map>
-        <shape>diamond</shape>
-        <text>Automata%20Cloud%20Processor</text>
-      </controlProperties>
-    </control>
-    <control controlID="5" controlTypeID="com.balsamiq.mockups::RoundButton" x="78" y="500" w="78" h="32" measuredW="32" measuredH="32" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::RoundButton" x="40" y="295" w="104" h="32" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
         <shape>dottedRect</shape>
-        <text>Clients</text>
+        <text>Clients%20-%20*5</text>
       </controlProperties>
     </control>
-    <control controlID="6" controlTypeID="com.balsamiq.mockups::RoundButton" x="1141" y="500" w="78" h="32" measuredW="32" measuredH="32" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::RoundButton" x="1114" y="295" w="112" h="32" measuredW="32" measuredH="32" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <shape>dottedRect</shape>
-        <text>Devices</text>
+        <text>Devices%20-%20*6</text>
       </controlProperties>
     </control>
-    <control controlID="7" controlTypeID="com.balsamiq.mockups::Arrow" x="793" y="269" w="384" h="216" measuredW="150" measuredH="100" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Arrow" x="787" y="49" w="363" h="231" measuredW="150" measuredH="100" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
         <rightArrow>false</rightArrow>
-        <text/>
+        <text>*1</text>
       </controlProperties>
     </control>
-    <control controlID="8" controlTypeID="com.balsamiq.mockups::Arrow" x="742" y="333" w="384" h="190" measuredW="150" measuredH="100" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Arrow" x="725" y="146" w="374" h="172" measuredW="150" measuredH="100" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <backgroundAlpha>1</backgroundAlpha>
         <curvature>-1</curvature>
         <direction>top</direction>
         <leftArrow>false</leftArrow>
         <rightArrow>true</rightArrow>
-        <text/>
+        <text>*2</text>
       </controlProperties>
     </control>
-    <control controlID="9" controlTypeID="com.balsamiq.mockups::Arrow" x="171" y="333" w="460" h="184" measuredW="150" measuredH="100" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Arrow" x="144" y="146" w="449" h="166" measuredW="150" measuredH="100" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <curvature>-1</curvature>
         <direction>bottom</direction>
         <rightArrow>false</rightArrow>
-        <text/>
+        <text>*4</text>
       </controlProperties>
     </control>
-    <control controlID="10" controlTypeID="com.balsamiq.mockups::Arrow" x="118" y="254" w="488" h="227" measuredW="150" measuredH="100" zOrder="10" locked="false" isInGroup="-1">
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Arrow" x="91" y="49" w="454" h="227" measuredW="150" measuredH="100" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <curvature>1</curvature>
         <direction>bottom</direction>
         <leftArrow>false</leftArrow>
         <rightArrow>true</rightArrow>
-        <text/>
-      </controlProperties>
-    </control>
-    <control controlID="11" controlTypeID="com.balsamiq.mockups::Arrow" x="688" y="357" w="10" h="291" measuredW="150" measuredH="100" zOrder="11" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text/>
+        <text>*3</text>
       </controlProperties>
     </control>
   </controls>

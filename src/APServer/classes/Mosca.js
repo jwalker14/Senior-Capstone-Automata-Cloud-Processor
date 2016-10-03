@@ -2,18 +2,33 @@ var mosca = require('mosca');
 
 
 //CLASS TO START THE MQTT SERVER
-function Mosca(settings){
-	this.ascoltatore.url = 'mongodb://' + settings.mongo.hostname + ":" + settings.mongo.port + '/' + settings.mongo.db
+function Mosca(){
 
-	this.server.on('clientConnected', function(client) {
-	    console.log('client connected', client.id);
-	});
+	this.ascoltatore = {
+	  //using ascoltatore
+	  type: 'mongo',
+	  url: settings.mongo.uri,
+	  pubsubCollection: 'MQTT',
+	  mongo: {}
+	},
 
+	this.settings = {
+		post: 1883,
+		backend: this.ascoltatore
+	},
+
+	//Create the server
+	this.server = new mosca.Server(this.settings)
+	//get some listener functions
+	this.server.on('clientConnected', this.clientConnected);
+	this.server.on('clientDisconnecting', this.clientDisconnecting);
+	this.server.on('clientDisconnected', this.clientDisconnected);
+	this.server.on('published', this.published);
+	this.server.on('delivered', this.delivered);
+	this.server.on('subscribed', this.subscribed);
+	this.server.on('unsubscribed', this.unsubscribed);
 	// fired when a message is received
-	this.server.on('published', function(packet, client) {
-	  console.log('Published', packet);
-	});
-
+	//when the server is ready let us know please
 	this.server.on('ready', this.setup);
 }
 
@@ -23,19 +38,38 @@ Mosca.prototype = {
 		console.log('Mosca server is up and running');
 	},
 
-	ascoltatore: {
-	  //using ascoltatore
-	  type: 'mongo',
-	  pubsubCollection: 'ascoltatori',
-	  mongo: {}
+	clientConnected: function(client){
+		console.log('connected', client.id)
 	},
 
-	settings: {
-		post: 1883,
-		backend: this.ascoltatore
+	clientDisconnecting: function(client){
+		console.log('disconnecting', client.id)
 	},
 
-	server: new mosca.Server(this.settings)
+	clientDisconnected: function(client){
+		console.log('disconnected', client.id)
+	},
+
+	published: function(packet, client){
+		console.log('published', packet)
+		console.log('from', client)
+	},
+
+	delivered: function(packet, client){
+		console.log('delivered', packet)
+		console.log('to', client)
+	},
+
+	subscribed: function(topic, client){
+		console.log(client, 'subscribed')
+		console.log('to', topic)
+	},
+
+	unsubscribed: function(topic, client){
+		console.log(client, 'unsubscribed')
+		console.log('from', topic)
+	}
+
 }
 
 

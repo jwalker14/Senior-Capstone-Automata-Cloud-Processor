@@ -3,7 +3,7 @@ var mosca = require('mosca');
 
 //CLASS TO START THE MQTT SERVER
 function Mosca(settings){
-	this.ascoltatore.url = 'mongodb://' + settings.mongo.hostname + ":" + settings.mongo.port + '/mqtt'
+	this.ascoltatore.url = 'mongodb://' + settings.mongo.hostname + ":" + settings.mongo.port + '/' + settings.mongo.db
 
 	this.server.on('clientConnected', function(client) {
 	    console.log('client connected', client.id);

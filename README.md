@@ -11,3 +11,7 @@
 		• Current State
 		• Other States
 	• Device Functions
+
+
+#### Must Have Gulp installed.
+#### This repo has submodules please pull those as well.

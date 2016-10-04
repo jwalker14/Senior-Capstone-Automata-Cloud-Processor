@@ -1,0 +1,6 @@
+[submodule "src/APServer"]
+	path = src/APServer
+	url = git@github.com:jwalker14/iot-server.git
+[submodule "src/html"]
+	path = src/html
+	url = git@github.com:jwalker14/iot-web.git

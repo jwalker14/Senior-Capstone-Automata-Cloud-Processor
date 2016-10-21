@@ -211,7 +211,7 @@
     <control controlID="49" controlTypeID="com.balsamiq.mockups::Canvas" x="1333" y="639" w="151" h="73" measuredW="100" measuredH="70" zOrder="11" locked="false" isInGroup="-1"/>
     <control controlID="50" controlTypeID="com.balsamiq.mockups::Paragraph" x="1348" y="654" w="210" h="58" measuredW="275" measuredH="80" zOrder="12" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Output%3A%0A%20%20%20%20%20Transition%20Array</text>
+        <text>Output%3A%0A%20%20%20%20%20Transition%20Queue</text>
       </controlProperties>
     </control>
     <control controlID="51" controlTypeID="com.balsamiq.mockups::Arrow" x="1267" y="732" w="-1" h="-1" measuredW="150" measuredH="100" zOrder="13" locked="false" isInGroup="-1">

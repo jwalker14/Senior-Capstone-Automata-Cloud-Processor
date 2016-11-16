@@ -1,0 +1,14 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "piviot-client": "file:///Users/jasonwalker/Documents/University of Maine Orono/CAPSTONE/npm-package/piviot-client-1.0.0.tgz"
+  }
+}
